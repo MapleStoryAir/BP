@@ -25,7 +25,7 @@ SECRET_KEY = 'k_q7ean4#ynca*_*+lchw72dnbe%-v#v=4iys)pn9v36z(l7a6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.zwg.com']
+ALLOWED_HOSTS = ['127.0.0.1', '172.96.196.118', 'localhost', '.zwg.com']
 
 
 # Application definition
@@ -110,9 +110,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'Asia/shanghai'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
